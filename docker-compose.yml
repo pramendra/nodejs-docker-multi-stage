@@ -1,0 +1,14 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      args:
+        WORKDIR: ${WORKDIR}
+        PORT: ${PORT}
+    ports:
+      - "${PORT}:${PORT}"
+    volumes:
+      - ./pages:${WORKDIR}/pages
+      - ./src:${WORKDIR}/src
+      - ./:${WORKDIR}/node_modules
