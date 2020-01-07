@@ -11,5 +11,4 @@ services:
     volumes:
       - ./pages:${WORKDIR}/pages
       - ./src:${WORKDIR}/src
-      - .:${WORKDIR}/node_modules
-      - .:${WORKDIR}/package-lock.json
+      - ./node_modules:${WORKDIR}/node_modules
