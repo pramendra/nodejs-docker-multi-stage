@@ -3,6 +3,7 @@
 ## Setup
 
 ### Setup NVM
+
 #### install NVM
 ```https://github.com/nvm-sh/nvm#install--update-script```
 
@@ -11,8 +12,12 @@
 $ nvm use
 ```
 
-
 ### Install packages
 ```
 $ npm install
 ``` 
+
+### Start dev  
+```
+$ docker-compose up --build
+```
