@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-docker-multi-stage",
+  "version": "1.0.0",
+  "description": "a multi stage docker build for nodejs template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodeJS",
+    "docker",
+    "multi-stage",
+    "nextJS",
+    "expressJS"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pramendra/nodejs-docker-multi-stage.git"
+  },
+  "author": "Pramendra Gupta <pramendra@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pramendra/nodejs-docker-multi-stage/issues"
+  },
+  "homepage": "https://github.com/pramendra/nodejs-docker-multi-stage#readme",
+  "devDependencies": {
+    "next": "^9.1.7",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
