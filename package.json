@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/pramendra/nodejs-docker-multi-stage#readme",
   "devDependencies": {
-    "next": "^9.1.7",
+    "next": "^11.1.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   }
